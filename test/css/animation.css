@@ -1,0 +1,16 @@
+@keyframes shadow {
+from {text-shadow: 0 0 3px black;}
+50% {text-shadow: 0 0 30px black;}
+to {text-shadow: 0 0 3px black;}
+}
+
+@keyframes book {
+from, 
+to {
+top: 0;
+left: 0;
+}
+25%, 
+75% {top: 100%;}
+50% {top: 50%;}
+}
